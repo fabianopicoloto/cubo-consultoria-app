@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.principal.PrincipalFragment" >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo_cubo_consultoria"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:lineSpacingExtra="2dp"
+        android:text="Nós somos a Cubo Consultoria, uma empresa especializada em consultoria de arquitetura. Nossos serviços são personalizados e buscamos oferecer soluções criativas para projetos de construção e design arquitetônico. Temos anos de experiência no mercado e nossa equipe é composta por profissionais altamente qualificados e apaixonados por arquitetura. \n\nNossa missão é fornecer soluções inovadoras e eficientes para nossos clientes, ajudando-os a alcançar seus objetivos de negócios e maximizar o valor de seus projetos de arquitetura. Nos esforçamos para fornecer um serviço excepcionalmente personalizado e uma experiência de atendimento ao cliente de primeira linha. \n\nNossos serviços incluem consultoria em design arquitetônico, gerenciamento de projetos, análise de viabilidade e sustentabilidade, planejamento urbano e muito mais. Trabalhamos com uma ampla variedade de clientes, desde proprietários de imóveis até empresas e organizações governamentais. \n\nSe você está procurando uma empresa de consultoria de arquitetura altamente qualificada e experiente, estamos aqui para ajudar. Com nossa abordagem personalizada e soluções criativas, podemos ajudá-lo a transformar seus projetos de arquitetura em realidade."
+        android:textColor="@color/textView_color"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
